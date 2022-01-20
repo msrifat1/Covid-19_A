@@ -161,9 +161,12 @@ nav{
 .symptomps {
     text-align: center;
     padding-top: 70px;
-    padding-left: 50px;
-    /* width: 100%; */
+    padding-left: 100px;
+    width: 100%;
     margin: auto;
+}
+.symptomps-text{
+
 }
 .symptomps h1{
     font-size: 29px;
@@ -302,7 +305,7 @@ nav{
     .coronavirus{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     .corona-right{
         margin: auto;
@@ -325,17 +328,22 @@ nav{
 
     }
     .contagion{
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     .symptomps h1{
         font-size: 40px;
+        margin: auto;
+        width: 400px;
     }
     .symptomps p{
         font-size: 18px;
         width: 400px;
+        margin: auto;
     }
     .symptomps-img img{
-        width: 80%;
+        width: 100%;
+        height: auto;
+        margin: auto;
     }
     .mask{
         display: inline-block;
@@ -356,12 +364,23 @@ nav{
     .map-size img{
     display: none;
     }
+    .email{
+        
+    }
     .email-text h1 {
         font-size: 18px;
         width: 200px;
         margin: auto;
     }
+    .log-in{
+        margin-left: 150px;
+    }
     .menu-footer ul{
         display: none;
+    }
+    .footer-last {
+        text-align: right;
+        font-size: 8px;
+    }
     }
 }
