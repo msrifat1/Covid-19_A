@@ -329,6 +329,9 @@ nav{
     .contagion{
         /* overflow: hidden; */
     }
+    .symptomps{
+        margin-left: 100px;
+    }
     .symptomps h1{
         font-size: 40px;
         margin: auto;
