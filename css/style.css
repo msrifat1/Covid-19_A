@@ -330,19 +330,24 @@ nav{
         /* overflow: hidden; */
     }
     .symptomps{
-        margin-left: 100px;
+        /* margin-left: 100px; */
+        margin: auto;
+        /* padding: 0 50px; */
     }
     .symptomps h1{
-        font-size: 40px;
+        display: none;
+        /* font-size: 40px;
         margin: auto;
-        width: 400px;
+        width: 400px; */
     }
     .symptomps p{
-        font-size: 18px;
+        display: none;
+        /* font-size: 18px;
         width: 400px;
-        margin: auto;
+        margin: auto; */
     }
     .symptomps-img img{
+        /* padding: 50px 50px; */
         width: 100%;
         height: auto;
         margin: auto;
