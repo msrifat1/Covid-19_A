@@ -346,11 +346,10 @@ nav{
         width: 400px;
         margin: auto; */
     }
-    .symptomps-img img{
-        /* padding: 50px 50px; */
+    .symptomps-img img {
         width: 100%;
         height: auto;
-        margin: auto;
+
     }
     .mask{
         display: inline-block;
