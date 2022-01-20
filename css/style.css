@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 5%;
+}
+.navbar{
+    margin: 0 5%;
+}
+.menu{
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #035755;
+    margin-right: 30px;
+    transition: .6s;
+}
+.menu ul li a:hover{
+    color: #FF383D;
+}
+.btn1{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #FF383D;
+    border: #FF383D 1px solid;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: .6s;
+}
+.btn1:hover{
+    background-color: #FF383D;
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.text-color{
+    color: #FF383D;
+}
+.banner-left {
+    width: 630px;
+    margin: 0px 10%;
+}
+.banner-left h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: #035755;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.banner-left p{
+    font-size: 20px;
+    color: #4B4F51;
+    font-family: 'Inter', sans-serif;
+}
+.btn2{
+    padding: 10px 20px;
+    background-color: #FF383D;
+    color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+    transition: .6s;
+}
+.btn2:hover{
+    background-color: transparent;
+    color: black;
+    border: black 1px solid;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 50px 0;
+    width: 100%;
+}
+.banner img {
+    width: 580px;
+    height: 412px;
+}
+.coronavirus{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.corona-left img {
+    width: 600px;
+}
+.corona-right {
+    width: 400px;
+}
+.corona-right h1{
+    font-weight: bold;
+    font-size: 29px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.corona-right p{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #4B4F51;
+}
+.corona-right a{
+    padding: 13px 30px;
+    background-color: #eedbda;
+    text-decoration: none;
+    color: #FA5652;
+    border-radius: 40px;
+    transition: .6s;
+}
+.corona-right a:hover{
+    background: transparent;
+    border: black 1px solid;
+    color: black;
+}
+/* ====== end corona ================= */
+.contagion{
+    width: 100%;
+}
+.contagion-text{
+    text-align: center;
+    margin: auto;
+}
+.contagion-text h1 {
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+}
+.contagion-text p{
+    font-size: 18px;
+    color: #4B4F51;
+    width: 500px;
+    margin: auto;
+}
+
+.contagion-part{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 50px;
+    padding: 50px 100px;
+}
+.contagion-part1 {
+    text-align: center;
+    box-shadow: #d1cccc 0px 0px 15px 10px;
+    padding: 50px 10px;
+    color: #4B4F51;;
+}
+.contagion-part1:hover{
+    box-shadow: #FF383D  0px 8px 0px -2px, #d1cccc 0px 0px 15px 10px;
+}
+/* ======== end contagion ============== */
+.symptomps {
+    text-align: center;
+    padding-top: 70px;
+    padding-left: 50px;
+    /* width: 100%; */
+    margin: auto;
+}
+.symptomps h1{
+    font-size: 29px;
+    font-weight: bold;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.symptomps p{
+    width: 700px;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #4B4F51;
+}
+.symptomps-img{
+    padding-bottom: 100px;
+}
+.count{
+    color: #FF383D;
+    background-color: #f8cecc;
+    border-radius: 100%;
+    padding: 10px 10px;
+}
+.mask-text h1{
+    font-family: 'ABeeZee', sans-serif;
+    font-style: italic;
+}
+.mask-text p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    width: 532px;
+    color: #4B4F51;
+    margin-left: 70px;
+    line-height: 200%;
+}
+.mask{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    margin-left: 100px;
+}
+.map-img{
+    display: flex;
+    align-items: center;
+}
+.map-size{
+   margin-left: 200px;
+   padding: 100px 0;
+}
+.email-text{
+    text-align: center;
+    color:#0C6C44;
+    font-size: 24px;
+    margin: auto;
+    width: 600px;
+    font-family: 'ABeeZee', sans-serif;
+    margin-bottom: 50px;
+}
+.log-in {
+    width: 330px;
+    margin: auto;
+    padding: 3px 19px;
+    border: #EAEAEA 1px solid;
+    border-radius: 30px;
+}
+.btn3{
+    padding: 10px 20px;
+    border: white 1px solid;
+    border-radius: 20px;
+    background-color: #FF383D;
+    color: white;
+    margin-left: 75px;
+    font-size: 15px;
+    left: 100%;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    padding-top: 100px;
+}
+.menu-footer{
+    margin-left: 210px;
+}
+.footer-last{
+    text-align: center;
+    color: #415E56;
+    padding-bottom: 50px;
+}
+.menu-footer ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.menu-footer ul li a{
+    text-decoration: none;
+    color: #035755;
+}
+
+
+
+
+
+/* Small device 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar{
+        display: inline-block;
+        line-height: 30px; 
+    }
+    .menu ul{
+        display: inline-block;
+        margin-left: 70px;
+    }
+    .contact {
+        margin-top: 40px;
+        margin-left: 260px;
+    }
+    .banner-left{
+        width: 400px;
+    }
+    .banner{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner-right img {
+        width: 400px;
+        height: 250px;
+        padding-top: 100px;
+        margin-left: 170px;
+    }
+    .banner-left h1{
+        font-size: 24px;
+    }
+    .banner-left p{
+        font-size: 12px;
+    }
+    .coronavirus{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        overflow: hidden;
+    }
+    .corona-right{
+        margin: auto;
+        padding: 20px 0px;
+    }
+    
+    .contagion-part {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 40px;
+        margin-left: 45px;
+    }
+    .contagion-text {
+        display: none;
+    }
+    .contagion-text h1{
+
+    }
+    .contagion-text p {
+
+    }
+    .contagion{
+        overflow: hidden;
+    }
+    .symptomps h1{
+        font-size: 40px;
+    }
+    .symptomps p{
+        font-size: 18px;
+        width: 400px;
+    }
+    .symptomps-img img{
+        width: 80%;
+    }
+    .mask{
+        display: inline-block;
+        margin-left: 40px;
+    }
+    .mask-text h1{
+        font-size: 24px;
+    }
+    .mask-text p{
+        font-size: 12px;
+        width: 400px;
+    }
+    .mask-img img{
+        height: 350px;
+        width: 350px;
+        margin-left: 80px;
+    }
+    .map-size img{
+    display: none;
+    }
+    .email-text h1 {
+        font-size: 18px;
+        width: 200px;
+        margin: auto;
+    }
+    .menu-footer ul{
+        display: none;
+    }
+}
