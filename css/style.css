@@ -374,6 +374,11 @@ nav{
     }
     .log-in{
         margin-left: 150px;
+        /* padding: 10px 70px; */
+        border: none;
+    }
+    .btn3{
+        
     }
     .menu-footer ul{
         display: none;
